@@ -2317,31 +2317,6 @@ header .navigation a:hover {
   }
 
 }
-/* CSS TEST */
-body {
-    border: 15px solid red !important;
-}
-
-.main .content h2,
-.main .content h2 span {
-    color: white !important;
-}
-
-header .brand,
-header .navigation a {
-    color: white !important;
-}
-
-.section-title {
-    color: #3a6cf4 !important;
-}
-
-.contact .content .row .card {
-    background: white !important;
-    padding: 28px 20px !important;
-    border-radius: 15px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08) !important;
-}
 
 /* =========================================================
    REDUCED MOTION
