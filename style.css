@@ -1,4 +1,4 @@
-```css
+
 /* =========================================================
    GOOGLE FONT
 ========================================================= */
@@ -55,8 +55,6 @@
 
 html {
   scroll-behavior: smooth;
-
-  scroll-padding-top: 80px;
 }
 
 body {
@@ -90,7 +88,7 @@ img {
 }
 
 section {
-  padding: 100px 10%;
+  padding: 90px 9%;
 }
 
 
@@ -119,7 +117,7 @@ header {
 
   width: 100%;
 
-  padding: 18px 10%;
+  padding: 16px 9%;
 
   display: flex;
 
@@ -137,7 +135,7 @@ header {
 }
 
 header.sticky {
-  padding: 12px 10%;
+  padding: 11px 9%;
 
   background: rgba(58, 108, 244, 0.97);
 
@@ -147,7 +145,7 @@ header.sticky {
 header .brand {
   color: var(--white);
 
-  font-size: 1.8rem;
+  font-size: 1.62rem;
 
   font-weight: 800;
 
@@ -176,7 +174,7 @@ header .navigation a {
 
   font-weight: 500;
 
-  margin-left: 28px;
+  margin-left: 25px;
 
   transition: var(--transition);
 }
@@ -271,7 +269,7 @@ header .navigation a:hover {
 .main .content h2 {
   color: var(--white);
 
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 
   line-height: 1.4;
 
@@ -287,7 +285,7 @@ header .navigation a:hover {
 
   color: var(--white);
 
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(2.7rem, 5.4vw, 4.5rem);
 
   line-height: 1.05;
 
@@ -304,9 +302,9 @@ header .navigation a:hover {
 .animated-text {
   position: relative;
 
-  height: 72px;
+  height: 65px;
 
-  margin-top: 12px;
+  margin-top: 11px;
 
   overflow: hidden;
 }
@@ -314,9 +312,9 @@ header .navigation a:hover {
 .animated-text h3 {
   color: #74a2ff;
 
-  font-size: clamp(1.7rem, 3vw, 3rem);
+  font-size: clamp(1.53rem, 2.7vw, 2.7rem);
 
-  line-height: 72px;
+  line-height: 65px;
 
   font-weight: 700;
 
@@ -383,7 +381,7 @@ header .navigation a:hover {
 
   margin-top: 25px;
 
-  padding: 12px 22px;
+  padding: 11px 20px;
 
   color: var(--white);
 
@@ -393,7 +391,7 @@ header .navigation a:hover {
 
   border-radius: 8px;
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 
   font-weight: 600;
 
@@ -464,9 +462,9 @@ header .navigation a:hover {
 
   align-items: center;
 
-  gap: 18px;
+  gap: 16px;
 
-  margin-top: 35px;
+  margin-top: 31px;
 }
 
 .media-icons a {
@@ -476,8 +474,8 @@ header .navigation a:hover {
 
   justify-content: center;
 
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
 
   color: var(--white);
 
@@ -485,7 +483,7 @@ header .navigation a:hover {
 
   border-radius: 50%;
 
-  font-size: 21px;
+  font-size: 19px;
 
   transition: var(--transition);
 }
@@ -520,11 +518,11 @@ header .navigation a:hover {
 .section-title {
   position: relative;
 
-  margin-bottom: 70px;
+  margin-bottom: 63px;
 
   color: var(--primary);
 
-  font-size: clamp(2rem, 3vw, 2.6rem);
+  font-size: clamp(1.8rem, 2.7vw, 2.35rem);
 
   font-weight: 800;
 
@@ -536,11 +534,11 @@ header .navigation a:hover {
 
   position: absolute;
 
-  top: calc(100% + 15px);
+  top: calc(100% + 13px);
 
   left: 50%;
 
-  width: 145px;
+  width: 130px;
   height: 4px;
 
   border-radius: 10px;
@@ -555,12 +553,12 @@ header .navigation a:hover {
 
   position: absolute;
 
-  top: calc(100% + 10px);
+  top: calc(100% + 9px);
 
   left: 50%;
 
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
 
   border-radius: 50%;
 
@@ -575,13 +573,13 @@ header .navigation a:hover {
 ========================================================= */
 
 .title > p {
-  width: min(850px, 100%);
+  width: min(800px, 100%);
 
-  margin-top: -35px;
+  margin-top: -31px;
 
   color: var(--muted);
 
-  font-size: 1rem;
+  font-size: 0.9rem;
 
   line-height: 1.8;
 
@@ -590,7 +588,7 @@ header .navigation a:hover {
 
 
 /* =========================================================
-   ABOUT
+   ABOUT SECTION
 ========================================================= */
 
 .about .content {
@@ -604,84 +602,122 @@ header .navigation a:hover {
 
   justify-content: space-between;
 
-  gap: 60px;
+  gap: 45px;
 
   margin-top: 20px;
 }
 
+
+/* =========================================================
+   ABOUT - IMAGE SIDE
+========================================================= */
+
 .about .content .col-left {
   position: relative;
 
-  width: 42%;
+  width: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
 }
 
-.about .content .col-right {
-  position: relative;
 
-  width: 52%;
-}
+/* Image container */
 
 .about .content .col-left .img-card {
   position: relative;
 
   width: 100%;
 
-  min-height: 470px;
+  max-width: 560px;
 
   overflow: hidden;
 
   border-radius: 18px;
 
+  background: transparent;
+
   box-shadow: var(--shadow);
+
+  line-height: 0;
 }
 
-.about .content .col-left .img-card::after {
-  content: '';
 
-  position: absolute;
-
-  inset: 0;
-
-  pointer-events: none;
-
-  background:
-    linear-gradient(
-      to top,
-      rgba(20, 35, 90, 0.12),
-      transparent
-    );
-}
+/* Actual image */
 
 .about .content .col-left .img-card img {
+  display: block;
+
   width: 100%;
-  height: 100%;
 
-  object-fit: cover;
+  height: auto;
 
-  transition: 0.5s ease;
+  max-width: 100%;
+
+  object-fit: contain;
+
+  border-radius: 18px;
+
+  transition: transform 0.5s ease;
 }
+
+
+/* Image hover */
 
 .about .content .col-left .img-card:hover img {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
+
+
+/* =========================================================
+   ABOUT - INFORMATION SIDE
+========================================================= */
+
+.about .content .col-right {
+  position: relative;
+
+  width: 50%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+
+/* Heading */
 
 .about .content .col-right .content-title {
   margin-bottom: 20px;
 
   color: var(--text);
 
-  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-size: clamp(1.45rem, 2.25vw, 2rem);
+
+  line-height: 1.3;
 
   font-weight: 800;
 }
 
+
+/* Paragraph */
+
 .about .content .col-right .paragraph-text {
   color: #444;
 
-  font-size: 1rem;
+  font-size: 0.9rem;
 
-  line-height: 1.9;
+  line-height: 1.8;
 }
+
+
+/* =========================================================
+   ABOUT BUTTONS
+========================================================= */
 
 .about-buttons {
   display: flex;
@@ -691,10 +727,105 @@ header .navigation a:hover {
   gap: 12px;
 }
 
+
 .about-buttons .btn {
   margin-top: 20px;
 }
 
+
+/* =========================================================
+   LARGE DESKTOP
+========================================================= */
+
+@media (min-width: 1400px) {
+
+  .about .content {
+    gap: 63px;
+  }
+
+  .about .content .col-left,
+  .about .content .col-right {
+    width: 50%;
+  }
+
+  .about .content .col-left .img-card {
+    max-width: 585px;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .about .content {
+    flex-direction: column;
+
+    gap: 40px;
+  }
+
+
+  .about .content .col-left,
+  .about .content .col-right {
+    width: 100%;
+  }
+
+
+  .about .content .col-left .img-card {
+    width: 80%;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .about .content {
+    gap: 30px;
+  }
+
+
+  .about .content .col-left .img-card {
+    width: 90%;
+  }
+
+
+  .about .content .col-right .paragraph-text {
+    font-size: 0.95rem;
+
+    line-height: 1.8;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .about .content .col-left .img-card {
+    width: 100%;
+  }
+
+
+  .about .content .col-right .content-title {
+    font-size: 1.7rem;
+  }
+
+}
 
 /* =========================================================
    SKILLS
@@ -729,7 +860,7 @@ header .navigation a:hover {
 
   justify-content: space-between;
 
-  gap: 70px;
+  gap: 63px;
 
   margin-top: 20px;
 }
@@ -750,7 +881,7 @@ header .navigation a:hover {
 .skills .content .col-left p {
   color: var(--light-text);
 
-  line-height: 1.9;
+  line-height: 1.8;
 }
 
 .skills .content .col-left .btn {
@@ -866,7 +997,7 @@ header .navigation a:hover {
 }
 
 .services .content .card {
-  min-height: 290px;
+  min-height: 260px;
 
   display: flex;
 
@@ -876,7 +1007,7 @@ header .navigation a:hover {
 
   justify-content: flex-start;
 
-  padding: 32px 26px;
+  padding: 29px 24px;
 
   text-align: center;
 
@@ -904,7 +1035,7 @@ header .navigation a:hover {
 
   color: var(--primary);
 
-  font-size: 3.8rem;
+  font-size: 3.4rem;
 
   transition: var(--transition);
 }
@@ -922,7 +1053,7 @@ header .navigation a:hover {
 
   color: var(--text);
 
-  font-size: 1.2rem;
+  font-size: 1.08rem;
 
   font-weight: 700;
 }
@@ -967,7 +1098,7 @@ header .navigation a:hover {
 
   color: var(--primary);
 
-  font-size: clamp(2rem, 3vw, 2.6rem);
+  font-size: clamp(1.8rem, 2.7vw, 2.35rem);
 
   font-weight: 800;
 }
@@ -996,8 +1127,8 @@ header .navigation a:hover {
   left: 145px;
   bottom: -23px;
 
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
 
   border-radius: 50%;
 
@@ -1032,10 +1163,10 @@ header .navigation a:hover {
 
   width: 100%;
 
-  height: 590px;
+  height: 530px;
 
-  min-height: 590px;
-  max-height: 590px;
+  min-height: 530px;
+  max-height: 530px;
 
   margin: 0;
 
@@ -1087,10 +1218,10 @@ header .navigation a:hover {
 
   width: 100%;
 
-  height: 590px;
+  height: 530px;
 
-  min-height: 590px;
-  max-height: 590px;
+  min-height: 530px;
+  max-height: 530px;
 
   display: flex;
 
@@ -1100,7 +1231,7 @@ header .navigation a:hover {
 
   justify-content: flex-start;
 
-  padding: 28px 28px 25px;
+  padding: 25px 25px 22px;
 
   overflow-x: hidden;
 
@@ -1190,11 +1321,11 @@ header .navigation a:hover {
 ========================================================= */
 
 .projects .carousel .card img {
-  width: 145px;
-  height: 145px;
+  width: 130px;
+  height: 130px;
 
-  min-width: 145px;
-  min-height: 145px;
+  min-width: 130px;
+  min-height: 130px;
 
   flex-shrink: 0;
 
@@ -1232,7 +1363,7 @@ header .navigation a:hover {
 
   color: #101010;
 
-  font-size: 1.45rem;
+  font-size: 1.3rem;
 
   line-height: 1.35;
 
@@ -1342,7 +1473,7 @@ header .navigation a:hover {
 }
 
 .education-card {
-  min-height: 300px;
+  min-height: 270px;
 
   display: flex;
 
@@ -1352,7 +1483,7 @@ header .navigation a:hover {
 
   justify-content: flex-start;
 
-  padding: 32px 25px;
+  padding: 29px 23px;
 
   text-align: center;
 
@@ -1376,10 +1507,10 @@ header .navigation a:hover {
 }
 
 .education-icon {
-  width: 68px;
-  height: 68px;
+  width: 61px;
+  height: 61px;
 
-  min-width: 68px;
+  min-width: 61px;
 
   display: flex;
 
@@ -1400,7 +1531,7 @@ header .navigation a:hover {
 
   border-radius: 50%;
 
-  font-size: 26px;
+  font-size: 23px;
 
   box-shadow:
     0 8px 20px rgba(58,108,244,0.22);
@@ -1425,7 +1556,7 @@ header .navigation a:hover {
 
   color: var(--primary);
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 }
 
 .education-content p {
@@ -1449,7 +1580,7 @@ header .navigation a:hover {
 .education-content .grade {
   margin-top: 14px;
 
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .education-content .grade strong {
@@ -1478,7 +1609,7 @@ header .navigation a:hover {
 }
 
 .achievements .card {
-  padding: 35px 28px;
+  padding: 32px 25px;
 
   text-align: center;
 
@@ -1504,7 +1635,7 @@ header .navigation a:hover {
 
   color: var(--primary);
 
-  font-size: 3.5rem;
+  font-size: 3.15rem;
 }
 
 .achievements .info h3 {
@@ -1512,7 +1643,7 @@ header .navigation a:hover {
 
   color: #111827;
 
-  font-size: 1.2rem;
+  font-size: 1.08rem;
 }
 
 .achievements .info p {
@@ -1563,9 +1694,9 @@ header .navigation a:hover {
 }
 
 .contact .content .row .card {
-  width: 270px;
+  width: 245px;
 
-  min-height: 190px;
+  min-height: 170px;
 
   display: flex;
 
@@ -1575,7 +1706,7 @@ header .navigation a:hover {
 
   justify-content: center;
 
-  padding: 28px 20px;
+  padding: 25px 18px;
 
   background: var(--white);
 
@@ -1599,7 +1730,7 @@ header .navigation a:hover {
 
   color: var(--primary);
 
-  font-size: 3rem;
+  font-size: 2.7rem;
 
   transition: var(--transition);
 }
@@ -1625,7 +1756,7 @@ header .navigation a:hover {
 .contact .content .row .card .info span {
   color: #666;
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 
   font-weight: 500;
 
@@ -1677,7 +1808,7 @@ header .navigation a:hover {
 
   color: #cfd5e5;
 
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 
   line-height: 1.7;
 }
@@ -1698,11 +1829,11 @@ header .navigation a:hover {
 
   z-index: 999;
 
-  right: 20px;
-  bottom: 20px;
+  right: 18px;
+  bottom: 18px;
 
-  width: 46px;
-  height: 46px;
+  width: 42px;
+  height: 42px;
 
   display: flex;
 
@@ -1776,7 +1907,7 @@ header .navigation a:hover {
 .contact-form {
   width: 100%;
 
-  max-width: 650px;
+  max-width: 585px;
 
   margin: 50px auto 0;
 
@@ -1855,7 +1986,7 @@ header .navigation a:hover {
 
   background: var(--primary);
 
-  font-size: 1rem;
+  font-size: 0.9rem;
 
   font-weight: 600;
 
@@ -1979,9 +2110,9 @@ header .navigation a:hover {
   }
 
   .about .content .col-left .img-card {
-    max-width: 600px;
+    width: 80%;
 
-    min-height: 380px;
+    max-width: 600px;
 
     margin: 0 auto;
   }
@@ -2020,7 +2151,7 @@ header .navigation a:hover {
   }
 
   .main .content h2 {
-    font-size: 1.2rem;
+    font-size: 1.08rem;
   }
 
   .main .content h2 span {
@@ -2101,31 +2232,31 @@ header .navigation a:hover {
   /* Projects */
 
   .projects .carousel .card {
-    height: 560px;
+    height: 540px;
 
-    min-height: 560px;
+    min-height: 540px;
 
-    max-height: 560px;
+    max-height: 540px;
   }
 
   .projects .carousel .card .box {
-    height: 560px;
+    height: 540px;
 
-    min-height: 560px;
+    min-height: 540px;
 
-    max-height: 560px;
+    max-height: 540px;
 
     padding: 26px 20px 22px;
   }
 
   .projects .carousel .card img {
-    width: 125px;
+    width: 120px;
 
-    height: 125px;
+    height: 120px;
 
-    min-width: 125px;
+    min-width: 120px;
 
-    min-height: 125px;
+    min-height: 120px;
   }
 
   .projects .carousel .card .text {
@@ -2133,7 +2264,7 @@ header .navigation a:hover {
   }
 
   .projects .carousel .card p {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
 
     line-height: 1.7;
   }
@@ -2245,33 +2376,33 @@ header .navigation a:hover {
   /* Project cards */
 
   .projects .carousel .card {
-    height: 520px;
+    height: 500px;
 
-    min-height: 520px;
+    min-height: 500px;
 
-    max-height: 520px;
+    max-height: 500px;
 
     border-radius: 10px;
   }
 
   .projects .carousel .card .box {
-    height: 520px;
+    height: 500px;
 
-    min-height: 520px;
+    min-height: 500px;
 
-    max-height: 520px;
+    max-height: 500px;
 
     padding: 25px 17px 20px;
   }
 
   .projects .carousel .card img {
-    width: 110px;
+    width: 105px;
 
-    height: 110px;
+    height: 105px;
 
-    min-width: 110px;
+    min-width: 105px;
 
-    min-height: 110px;
+    min-height: 105px;
 
     border-width: 4px;
   }
@@ -2299,7 +2430,7 @@ header .navigation a:hover {
   }
 
   .education-card {
-    padding: 28px 20px;
+    padding: 25px 18px;
   }
 
   .education-content h3 {
@@ -2339,4 +2470,64 @@ header .navigation a:hover {
   }
 
 }
-```
+
+/* =========================================================
+   NAVIGATION OFFSET FIX
+   Prevents large empty space when jumping to sections
+========================================================= */
+
+section[id] {
+  scroll-margin-top: 40px;
+}
+
+/* =========================================================
+   HERO CONTRAST / CTA FINAL
+========================================================= */
+
+.main .content h2,
+.main .content h2 span {
+  color: #ffffff !important;
+}
+
+header .brand,
+header .navigation a {
+  color: #ffffff !important;
+}
+
+.hero-buttons .btn:first-child {
+  background: #3a6cf4 !important;
+  color: #ffffff !important;
+  border-color: #3a6cf4 !important;
+}
+
+.hero-buttons .resume-btn {
+  background: #ffffff !important;
+  color: #2454d8 !important;
+  border-color: #ffffff !important;
+}
+
+.hero-buttons .resume-btn i {
+  color: #2454d8 !important;
+}
+
+.hero-buttons .resume-btn:hover {
+  background: #3a6cf4 !important;
+  color: #ffffff !important;
+  border-color: #3a6cf4 !important;
+}
+
+.hero-buttons .resume-btn:hover i {
+  color: #ffffff !important;
+}
+
+.media-icons a {
+  background: rgba(255, 255, 255, 0.96) !important;
+  color: #2454d8 !important;
+  border-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.media-icons a:hover {
+  background: #3a6cf4 !important;
+  color: #ffffff !important;
+  border-color: #3a6cf4 !important;
+}
